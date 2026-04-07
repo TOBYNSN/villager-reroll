@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "villager_reroll",
+  "version": "${version}",
+  "name": "Villager Reroll",
+  "description": "Základ pre mod Villager Reroll",
+  "authors": [
+    "Leo"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "sk.leo.villagerreroll.VillagerReroll"
+    ],
+    "client": [
+      "sk.leo.villagerreroll.VillagerRerollClient"
+    ]
+  },
+  "mixins": [
+    "villager_reroll.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

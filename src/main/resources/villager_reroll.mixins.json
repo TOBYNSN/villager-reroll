@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sk.leo.villagerreroll.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "villager_reroll-refmap.json",
+  "mixins": [
+    "MerchantScreenHandlerAccessor",
+    "VillagerEntityMixin",
+    "ZombieVillagerEntityMixin"
+  ],
+  "client": [
+    "client.MerchantScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
