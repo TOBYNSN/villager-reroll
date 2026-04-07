@@ -3,9 +3,9 @@
   "id": "villager_reroll",
   "version": "${version}",
   "name": "Villager Reroll",
-  "description": "Základ pre mod Villager Reroll",
+  "description": "Simple Villager Reroll",
   "authors": [
-    "Leo"
+    "TOBYNSN"
   ],
   "license": "MIT",
   "environment": "*",
